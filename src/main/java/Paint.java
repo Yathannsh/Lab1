@@ -39,7 +39,7 @@ public class Paint {
 
                 /*
                  * Grab random numbers between -25 and 25 and use them to generate a white square at
-                 * a position nearby the mouse click.
+                 * a position nearby the mouse click test.
                  */
                 double x2 = x - 25 + 50 * Math.random();
                 double y2 = y - 25 + 50 * Math.random();
