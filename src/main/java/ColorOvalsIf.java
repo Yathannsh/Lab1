@@ -24,14 +24,14 @@ public class ColorOvalsIf {
              * Wait for a mouse click.
              */
             Zen.waitForClick();
-
+            Zen.waitForClick();
             /*
              * Get the click location and use it to set the oval location and color.
              */
             int x = Zen.getMouseX();
             int y = Zen.getMouseY();
 
-            Zen.fillOval(x - 16, y - 16, 32, 32);
+            Zen.fillOval(x - 165, y - 46, 62, 82);
             Zen.setColor(x, y, x + y);
         }
     }

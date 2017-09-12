@@ -44,7 +44,7 @@ public class Paint {
                 double x2 = x - 25 + 50 * Math.random();
                 double y2 = y - 25 + 50 * Math.random();
 
-                Zen.fillRect((int) x2, (int) y2, 1, 1);
+                Zen.fillRect((int) x2, (int) y2, 2, 1);
             }
         }
     }
